@@ -1,4 +1,4 @@
-const WeatherSDK = require('../weather');
+const WeatherSDK = require('../bin/weather');
 
 const weatherAPI = new WeatherSDK({
     location: 'Porto',
