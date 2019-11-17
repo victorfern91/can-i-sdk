@@ -1,0 +1,25 @@
+{
+  "name": "@victorfern91/can-i-sdk",
+  "version": "1.0.0",
+  "description": "Aggregate all data from public apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorfern91/can-i-sdk.git"
+  },
+  "author": "Victor Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorfern91/can-i-sdk/issues"
+  },
+  "homepage": "https://github.com/victorfern91/can-i-sdk#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
