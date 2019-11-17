@@ -1,9 +1,10 @@
-const weather = require('../weather');
+const WeatherSDK = require('../weather');
 
-const weatherAPI = weather
-    .setLocation('porto')
-    .setProvider('ipma');
+const weatherAPI = new WeatherSDK({
+    location: 'Porto',
+    provider: 'ipma'
+});
 
 (async () => {
-    console.log(await weatherAPI.getWeatherForToday())
+    console.log(await weatherAPI.getWeatherForToday());
 })();

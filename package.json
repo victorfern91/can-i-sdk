@@ -20,5 +20,11 @@
     "eslint": "^6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.7.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "table": "^5.4.6"
   }
 }
