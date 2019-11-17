@@ -21,6 +21,10 @@ class WeatherSDK {
     async getWeatherForToday() {
         return this.api.getWeatherForToday(this.location);
     }
+
+    async getWeatherForTomorrow() {
+        return this.api.getWeatherForTomorrow(this.location);
+    }
 }
 
 module.exports = WeatherSDK;
