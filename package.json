@@ -1,8 +1,7 @@
 {
   "name": "@victorfern91/can-i-sdk",
   "version": "1.0.0",
-  "description": "Aggregate all data from public apis",
-  "main": "index.js",
+  "description": "Aggregate all data from public APIs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
