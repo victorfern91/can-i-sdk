@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "date-fns": "^2.7.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.0",
     "table": "^5.4.6"
   }
